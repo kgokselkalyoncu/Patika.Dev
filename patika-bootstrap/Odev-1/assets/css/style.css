@@ -1,0 +1,90 @@
+.nav-bar-passive{
+    filter: grayscale(1);
+    opacity: 0.2;
+}
+
+.nav-bar-passive:hover{
+    filter: grayscale(0);
+    opacity: 1;
+}
+
+.navbar-bg-color{
+    background: linear-gradient(
+        90deg, 
+        rgb(174 118 24) 0%,
+        rgb(251 131 12) 6%, 
+        rgb(254 187 129) 9%, 
+        rgb(255 249 140) 12%, 
+        rgb(84 175 255) 15%,
+        rgb(191 72 32) 18%,
+        rgb(197 146 93) 21%,
+        rgb(251 245 115) 24%,
+        rgb(99 213 217) 27%,
+        rgb(179 209 248) 30%,
+        rgb(137,196,230) 50%,
+        rgb(41,126,181) 75%,
+        rgb(42,70,120) 95%
+        );
+}
+
+.header{
+    background-image: url("../image/gunes-sistemi.png");
+    background-repeat: no-repeat;
+    background-position-y: -207px;
+    background-color: black;
+    height: 25px;
+}
+
+.planets{
+    background-image: url("../image/planets-solar-system.png");
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+    filter: grayscale(1);
+    opacity: 0.2;
+    height: 48px;
+    width: 48px;
+}
+
+.planets:hover{
+    filter: grayscale(0);
+    opacity: 1;
+}
+
+.planets-active{
+    filter: grayscale(0);
+    opacity: 1;
+}
+
+.gunes{
+    background-position-x: 0px;
+}
+
+.merkur{
+    background-position-x: -50px;
+}
+.venus{
+    background-position-x: -100px;
+}
+.dunya{
+    background-position-x: -150px;
+}
+.mars{
+    background-position-x: -200px;
+}
+.jupiter{
+    background-position-x: -250px;
+}
+.saturn{
+    background-position-x: -300px;
+}
+.uranus{
+    background-position-x: -350px;
+}
+.neptun{
+    background-position-x: -400px;
+}
+
+/* body{
+    background: url("../image/bg-color.png");
+    background-repeat: repeat-y;
+} */
