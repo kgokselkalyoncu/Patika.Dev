@@ -1,0 +1,14 @@
+{
+  "name": "dairenin-alani",
+  "version": "0.0.0",
+  "description": "DaireninAlani",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  },
+  "eslintConfig": {
+  }
+}
